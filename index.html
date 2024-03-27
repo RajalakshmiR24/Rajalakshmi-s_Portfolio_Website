@@ -19,6 +19,7 @@
 </head>
 <body>
   <!--==================== HEADER ====================-->
+  
   <header class="header" id="header">
     <nav class="nav container">
       <a href="#" class="nav__logo">RAJALAKSHMI R</a>
@@ -80,23 +81,9 @@
               </a>
             </div>
             <div class="home__img">
-              <svg class="home__blob" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <mask id="mask0" mask-type="alpha">
-                      <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547
-                        130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775
-                        97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666
-                        0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-                  </mask>
-                  <g mask="url(#mask0)">
-                      <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346
-                        165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403
-                        129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028
-                        -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
-          
-                      <image class="home__blob-img" x='12' y='18' xlink:href="assets/img/raji.png" />
-                  </g>
-              </svg>
+              <img class="home__card-img" src="assets/img/raji.png" alt="Raji's Image">
           </div>
+          
           
 
             <div class="home__data">
@@ -532,6 +519,37 @@
 
         <div class="portfolio__container container swiper mySwiper">
           <div class="swiper-wrapper">
+
+            <!--==================== PORTFOLIO ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio.jpg" alt="" class="portfolio__img">
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">YouTube Clone with React Native and Expo
+                </h3>
+                <p class="portfolio__description">This project is a YouTube clone built with React Native and Expo, integrating Tailwind CSS 
+                  (or Ant Design CSS) for styling. It utilizes a rapid API alternative for fetching trending videos from YouTube's v3 API.</p>
+                <a href="https://github.com/RajalakshmiR24/YouTube_Clone_with_ReactNativeExpo" class="button button--flex button--small portfolio__button" target="_blank">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
+            <!--==================== PORTFOLIO 0 ====================-->
+            <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio 0.jpg" alt="" class="portfolio__img">
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">JobSearch App
+                </h3>
+                <p class="portfolio__description">This is a React Native Expo app designed to help users find jobs quickly and efficiently. It leverages the Rapid API service JSearch for fetching job listings.
+                </p>
+                <a href="https://github.com/RajalakshmiR24/JobSearch_App_using_React_Native_expo" class="button button--flex button--small portfolio__button" target="_blank">
+                  Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
             <!--==================== PORTFOLIO 1 ====================-->
             <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/portfolio1.jpg" alt="" class="portfolio__img">
@@ -565,11 +583,12 @@
             <div class="portfolio__content grid swiper-slide">
               <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
               <div class="portfolio__data">
-                
+
+
                 <h3 class="portfolio__title">Online-Marketplace-Amazon-Clone</h3>
                 <p class="portfolio__description">Online marketplace project utilizing React.js for the
                   front-end interface. Replicates Amazon's functionality with features such as
-                  user authentication, product search, shopping cart, checkout, and payment processing. Aimed at providing a seamless shopping experience
+                   shopping cart. Aimed at providing a seamless shopping experience
                   similar to that of Amazon for users</p>
                   <a href="https://github.com/RajalakshmiR24/Amazon_CLone_using_React" class="button button--flex button--small portfolio__button" target="_blank">
                   Demo
@@ -577,6 +596,22 @@
                 </a>
               </div>
             </div>
+
+             <!--==================== PORTFOLIO ====================-->
+             <div class="portfolio__content grid swiper-slide">
+              <img src="assets/img/portfolio4.jpg" alt="" class="portfolio__img">
+              <div class="portfolio__data">
+                <h3 class="portfolio__title">Portfolio Mobile App
+                </h3>
+                <p class="portfolio__description">This is a simple portfolio app built using React and Expo,
+                   allowing users to showcase their projects, skills, and contact information in an easy-to-use mobile application.</p>
+                   <a href="https://github.com/RajalakshmiR24/Portfolio_Mobile_App" class="button button--flex button--small portfolio__button" target="_blank">
+                    Demo
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </a>
+              </div>
+            </div>
+
           </div>
           <!-- add Arrows -->
           <div class="swiper-button-next">
